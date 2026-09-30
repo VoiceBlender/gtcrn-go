@@ -1,0 +1,13 @@
+gtcrn-go
+========
+
+A pure-Go port of GTCRN (https://github.com/Xiaobin-Rong/gtcrn), ported from
+upstream commit 502ebfab64da7c4a9af78dcb9c6ceef1ebb01c73.
+
+The network, its streaming form and the trained weights are the work of
+Xiaobin Rong and contributors. This port is distributed under the same terms
+as upstream, MIT; LICENSE is upstream's, verbatim.
+
+weights.bin is upstream's checkpoints/model_trained_on_dns3.tar converted by
+tools/export/export.py. sha256:
+716a4c29d74bb81d3d4e32e41d7ac1787499e8c0da2406d9d544336efb51d61e
